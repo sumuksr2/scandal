@@ -25,28 +25,28 @@
     </dict>
     <key>3</key><dict>
         <key>Filename</key><string>C:\Users\sumuk\Documents\GitHub\scandal\Scandal.inform\Source\story.ni</string>
-        <key>Line</key><integer>29</integer>
+        <key>Line</key><integer>33</integer>
         <key>Title</key><string>Section 2 - Global Functions</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
         <key>Filename</key><string>C:\Users\sumuk\Documents\GitHub\scandal\Scandal.inform\Source\story.ni</string>
-        <key>Line</key><integer>35</integer>
+        <key>Line</key><integer>41</integer>
         <key>Title</key><string>Chapter 2 - Levels</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>5</key><dict>
         <key>Filename</key><string>C:\Users\sumuk\Documents\GitHub\scandal\Scandal.inform\Source\story.ni</string>
-        <key>Line</key><integer>37</integer>
+        <key>Line</key><integer>43</integer>
         <key>Title</key><string>Section 1 - Level One</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\Users\sumuk\Documents\GitHub\scandal\Scandal.inform\Source\story.ni</string>
-        <key>Line</key><integer>62</integer>
+        <key>Line</key><integer>68</integer>
         <key>Title</key><string>Section 2 - Level Two</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>2</integer>

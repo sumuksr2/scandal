@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-14"/>
+  <activeNode nodeId="node-36"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Scandal</command>
     <result xml:space="preserve">Scandal&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181125 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;levelOne&#x000A;Salutations! You are in Chicago and the date is March 2, 1922. This game focuses on showing the influence corruption on regular people's lives. You can choose to play the game as either a Cop or a Store Owner. Throughout the game, you'll be asked to make different decisions. There will always be an option between a corrupt option and a less corrupt option, be sure to choose wisely! You have two monitors: cash and trust. Cash counts how much money you have (if you reach 0 you automatically lose). Trust counts how many corrupt decisions you've taken. You start at 100% trust and the value decreases for every corrupt action (if you reach 0 trust you will NOT automatically lose the game). Start the game by stating if you want to play as a cop or a store owner.&#x000A;&#x000A;&gt;</result>
@@ -10,6 +10,7 @@
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-5"/>
+      <child nodeId="node-30"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -72,11 +73,13 @@
   </item>
   <item nodeId="node-9">
     <command xml:space="preserve">fight the mugger</command>
-    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Good Luck...Oh great, he's already about to hit you, choose one of the fight options above!!!&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-10"/>
+      <child nodeId="node-15"/>
+      <child nodeId="node-24"/>
     </children>
   </item>
   <item nodeId="node-10">
@@ -118,6 +121,195 @@
   <item nodeId="node-14">
     <command xml:space="preserve">pound</command>
     <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!YIKES! Fighting him was not the best choice. You're knocked out and he just ran away with $200. Better luck next time!&#x000A;&#x000A;Cash: 800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">kick</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">pound</command>
+    <result xml:space="preserve">BAM! He hits you square in the face and you end up with a black eye. But you can't give up! KEEP FIGHTING!&#x000A;Health: 11&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">punch </command>
+    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Good Luck...Oh great, he's already about to hit you, choose one of the fight options above!!!&#x000A;&#x000A;Health: 11&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Health: 9&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Health: 6&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Health: 6&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Health: 2&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A; AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.&#x000A;&#x000A;Health: 2&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Your Health: 12   Mugger's Health: 13&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">BAM! He hits you square in the face and you end up with a black eye. But you can't give up! KEEP FIGHTING!&#x000A;Your Health: 10   Mugger's Health: 8&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">kick</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 6   Mugger's Health: 4&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A;Your Health: 5   Mugger's Health: 2&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 5   Mugger's Health: 0&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A; AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.&#x000A;&#x000A;Your Health: 5   Mugger's Health: -3&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">store owner </command>
+    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of {PLZ FINISH THIS}. &#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">fight the mugger</command>
+    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!&#x000A;Your Health: 14   Mugger's Health: 13&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A;Your Health: 10   Mugger's Health: 12&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A;Your Health: 7   Mugger's Health: 8&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Your Health: 3   Mugger's Health: 3&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A; AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.&#x000A;&#x000A;Your Health: 3   Mugger's Health: -2&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

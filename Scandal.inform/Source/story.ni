@@ -26,10 +26,16 @@ The health of mugger is 15.
 [this declares a person called the mugger]
 mugger is a person.
 
+[this declares if the player is fighting]
+fightingOrNot is a truth state variable.
+fightingOrNot is false.
+
 Section 2 - Global Functions
 
 Every turn:
 	say "Cash: [cash][line break]Trust: [trust][line break]".
+Every turn when fightingOrNot is true:
+	say "Your Health: [health of the player]   Mugger's Health: [health of mugger][line break]".
 
 
 Chapter 2 - Levels
@@ -67,33 +73,43 @@ The description of levelTwo is "It's 5 PM and you just finish a day of hard work
 continueWalking is an action applying to nothing.
 Understand "continue" and "ignore" and "continue walking" as continueWalking.
 Carry out continueWalking:
-	say "Smart choice (not a brave one). You manage to get home without being hurt in any way. Good Job!".
+	say "Smart choice (not a brave one). You continue to walk home and are able to sleep. Rest up for a big day tomorrow. Good Night!";
+	now the player is in levelThree.
 	
 fightMugger is an action applying to nothing.
 Understand "fight the mugger" and "fight" and "attack" as fightMugger.
 Carry out fightMugger:
-	say "Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Good Luck...Oh great, he's already about to hit you, choose one of the fight options above!!!".
+	say "Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!";
+	now fightingOrNot is true.
 	
 fighting is an action applying to nothing.
 Understand "punch" and "kick" and "duck" and "pound" as fighting.
 Instead of fighting:
 	choose a random row in the Table of mugFight;
-	say "[event entry]";
 	let damage be a random number between 0 and 5;
 	decrease health of mugger by damage;
-	if health of mugger is less than 0:
-		say "[line break] AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.";
+	if health of mugger is greater than 0 and health of the player is greater than 0:
+		say "[event entry]";
+	if health of mugger is 0 or health of mugger is less than 0:
+		say "AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.";
 		stop the action;
+		now fightingOrNot is false;
+		now the player is in levelThree;
 	let the enemyDamage be a random number between 0 and 5;
 	decrease health of the player by enemyDamage;
-	if health of the player is less than 0:
-		say "[line break]YIKES! Fighting him was not the best choice. You're knocked out and he just ran away with $200. Better luck next time!" ;
+	if health of the player is 0 or health of the player is less than 0:
+		say "YIKES! Fighting him was not the best choice. You're knocked out and he just ran away with $200. Better luck next time!" ;
 		decrease cash by 200;
-		stop the action.
+		now fightingOrNot is false;
+		stop the action;
+		now the player is in levelThree.
 	
 run is an action applying to nothing.
+Understand "run away" as run.
 Carry out run:
-	say "That was a close call. You barely made it out alive! Poor woman though, she'll still be mugged but atleast you tried.".
+	say "That was a close call. You barely made it out alive! Poor woman though, she'll still be mugged but atleast you tried. You continue to walk home and are able to sleep. Rest up for a big day tomorrow. Good Night!";
+	now fightingOrNot is false;
+	now the player is in levelThree.
 
 Table of mugFight
 event
@@ -102,6 +118,11 @@ event
 "You're on firee! Keep going like this and he'll never get you!"
 "BAM! He hits you square in the face and you end up with a black eye. But you can't give up! KEEP FIGHTING!"
 "He's got you! He's put you in a headlock, try to get out of it. Throw another move!"
+
+Section 3 - Level Three
+
+levelThree is a Room.
+The description of levelThree is 
 	
 		
 
