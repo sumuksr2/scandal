@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-55"/>
+  <activeNode nodeId="node-122"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Scandal</command>
-    <result xml:space="preserve">Scandal&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181204 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;levelOne&#x000A;Salutations! Welcome to the game of deceit. You are in Chicago and the date is March 2, 1922. This game focuses on showing the influence corruption on regular people's lives. You'll play the game as a regular store owner who's just trying to survive and keep his family alive. Throughout the game, you'll be asked to make different decisions. There will always be an option between a corrupt option and a less corrupt option, be sure to choose wisely! You have two monitors: cash and trust. Cash counts how much money you have (if you reach 0 you automatically lose). Trust counts how many corrupt decisions you've taken. You start at 100% trust and the value decreases for every corrupt action (if you reach 0 trust you will NOT automatically lose the game). Type in store owner to start the game.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Scandal&#x000A;An Interactive Fiction by Sumuk Rao&#x000A;Release 1 / Serial number 181209 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;levelOne&#x000A;Salutations! Welcome to the game of deceit. You are in Chicago and the date is March 2, 1922. This game focuses on showing the influence corruption on regular people's lives. You'll play the game as a regular store owner who's just trying to survive and keep his family alive. Throughout the game, you'll be asked to make different decisions. There will always be an option between a corrupt option and a less corrupt option, be sure to choose wisely! You have two monitors: cash and trust. Cash counts how much money you have (if you reach 0 you automatically lose). Trust counts how many corrupt decisions you've taken. You start at 100% trust and the value decreases for every corrupt action (if you reach 0 trust you will NOT automatically lose the game). Type in store owner to start the game.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-5"/>
-      <child nodeId="node-35"/>
-      <child nodeId="node-42"/>
+      <child nodeId="node-36"/>
+      <child nodeId="node-43"/>
       <child nodeId="node-51"/>
       <child nodeId="node-55"/>
+      <child nodeId="node-62"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -42,13 +43,14 @@
   </item>
   <item nodeId="node-5">
     <command xml:space="preserve">store owner</command>
-    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of $100.&#x000A;&#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;Cash: 1100&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of $200.&#x000A;&#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;Cash: 1200&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-6"/>
       <child nodeId="node-9"/>
-      <child nodeId="node-50"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-56"/>
     </children>
   </item>
   <item nodeId="node-6">
@@ -300,24 +302,587 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-50">
+  <item nodeId="node-35">
     <command xml:space="preserve">punch</command>
     <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to pound, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-35">
-    <command xml:space="preserve">store owner </command>
-    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of {PLZ FINISH THIS}. &#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+  <item nodeId="node-56">
+    <command xml:space="preserve">continue walking</command>
+    <result xml:space="preserve">Smart choice (not a brave one). You continue to walk home and are able to sleep. Rest up for a big day tomorrow. Good Night!&#x000A;&#x000A;levelThree&#x000A;It's a fresh new day and you're ready to head back to the workplace. Except you now see a letter taped onto the door. You weren't expecting anything so what could it be?&#x000A;&#x000A;You can see firstLetter here.&#x000A;&#x000A;Cash: 1400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-36"/>
+      <child nodeId="node-57"/>
+      <child nodeId="node-64"/>
     </children>
   </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">read firstLetter</command>
+    <result xml:space="preserve">Greetings,&#x000A; Hope you are having a gracious day. I am writing this letter to you to propose a business deal. You must know me for my numerous speakeasies - No, sorry, excuse me. I mean my businesses around Illinois. Your store seems to be in the optimal position where you get customers from all over the city. However, I see your business seems to be taking a dip recently and I am willing to help you out. Afterall, it would be a shame  if  something were to happen to it. In fact, I'll give you a very good deal. I'll buy your business from you for $1000. SELL your store or IGNORE this letter. But whatever you decide, it's on you!&#x000A; Yours Truly, &#x000A; Mr. Cal Apone&#x000A; (PS. You will NOT be allowed to change your answer later.&#x000A;&#x000A;&#x000A;Cash: 1600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+      <child nodeId="node-83"/>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">SELL</command>
+    <result xml:space="preserve">Congratulations on selling the store!! $1000 has been added to your account. But unfortunately, since you're not employed anymore, you won't be gaining $200 every turn as salary.&#x000A;&#x000A;levelFour&#x000A;After that long and tough decision, you plan to clear your mind by taking a walk around the block. As you walk around you come across a tall man in a big suit. He approaches you and attempts to create conversation: &#x000A; Good Morning Sir, how are you? As you know many businesses in the area are dipping and hitting low points. I suggest you buy our Businses Insaurance and we'll always keep you covered. We're one of the finest insaurance companies in the nation.  &#x000A; Your options are to 1) Keep listening 2) Keep walking and don't care.&#x000A;&#x000A;Cash: 2600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">Keep walking and don't care</command>
+    <result xml:space="preserve">Wise choice, who knows if it was even a legit company.&#x000A;&#x000A;levelFive&#x000A;You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. &#x000A; Hey Daddy!! Can I ask you a question?&#x000A;&#x000A;Cash: 2600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">My school is taking us on a field trip to San Fransisco, but the only way I can go is if I pay for the whole trip. It'll cost about $2000 Can I go pleaseeeeee?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve">OMGG! Thank you so much!!!!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">ignore</command>
+    <result xml:space="preserve">levelFour&#x000A;After that long and tough decision, you plan to clear your mind by taking a walk around the block. As you walk around you come across a tall man in a big suit. He approaches you and attempts to create conversation: &#x000A; Good Morning Sir, how are you? As you know many businesses in the area are dipping and hitting low points. I suggest you buy our Businses Insaurance and we'll always keep you covered. We're one of the finest insaurance companies in the nation.  &#x000A; Your options are to 1) Keep listening 2) Keep walking and don't care.&#x000A;&#x000A;Cash: 1800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">keep walking</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">keep walking and don't care</command>
+    <result xml:space="preserve">Wise choice, who knows if it was even a legit company.&#x000A;&#x000A;levelFive&#x000A;You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. &#x000A; Hey Daddy!! Can I ask you a question?&#x000A;&#x000A;Cash: 2000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Well, too bad daddy, I'll ask you anyway. My school today told me that I can't go back unless I pay the school fees. I don't know what that is, but I think they were asking for $3000 or something. Can you pay them that amount, I want to go back to school and have fun with my friends!!&#x000A; * YOU HAVE LESS THAN $3000, SO SAYING YES WILL MAKE YOU HAVE LESS THAN 0 CASH AND YOU'LL LOSE THE GAME * &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">But like everyone is going! Ugh fine, I was just trying to have some fun and be normal but whatever.&#x000A;&#x000A;levelSix&#x000A;Feeling bad about rejecting your daughter's request, you decide to head back to your store. Maybe you could earn more money and grant her wishes....&#x000A; So now you're back at the store trying to earn as much as possible. When suddenly a man with a large black bag comes into your shop. &#x000A;A few people are looking for me and chasing me and I've been cornered. They're trying to steal my money and stuff in this bag. I will pay you $800 to let me hide this bag here and let me go out through your back storage door. Please I beg you! &#x000A; Although this sounds pretty shady, he is about to pay the amount needed for your daughter's education and it can't hurt to just hide a bag, so it looks like a good deal. Your options are to tell him 1) Hide Bag 2) Go Away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">hide bag</command>
+    <result xml:space="preserve">Thank you! Here's your cash, I'm out of here!&#x000A;&#x000A;levelSixOne&#x000A;Moments later, the police barge into your store. &#x000A;  We're looking for a criminal who's been on the run. We saw him come in this area. Do you know of his whereabouts? Just saying, if you're caught lying, you'll be in trouble too.&#x000A;&#x000A;Cash: 3400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;&#x000A;That was a rhetorical question.&#x000A;&#x000A;Cash: 3600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">keep walking and don't care</command>
+    <result xml:space="preserve">Wise choice, who knows if it was even a legit company.&#x000A;&#x000A;levelFive&#x000A;You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. &#x000A; Hey Daddy!! Can I ask you a question?&#x000A;&#x000A;Cash: 2000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Well, too bad daddy, I'll ask you anyway. My school today told me that I can't go back unless I pay the school fees. I don't know what that is, but I think they were asking for $3000 or something. Can you pay them that amount, I want to go back to school and have fun with my friends!!&#x000A; * YOU HAVE LESS THAN $3000, SO SAYING YES WILL MAKE YOU HAVE LESS THAN 0 CASH AND YOU'LL LOSE THE GAME * &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">But like everyone is going! Ugh fine, I was just trying to have some fun and be normal but whatever.&#x000A;&#x000A;levelSix&#x000A;Feeling bad about rejecting your daughter's request, you decide to head back to your store. Maybe you could earn more money and grant her wishes....&#x000A; So now you're back at the store trying to earn as much as possible. When suddenly a man with a large black bag comes into your shop. &#x000A;A few people are looking for me and chasing me and I've been cornered. They're trying to steal my money and stuff in this bag. I will pay you $800 to let me hide this bag here and let me go out through your back storage door. Please I beg you! &#x000A; Although this sounds pretty shady, he is about to pay the amount needed for your daughter's education and it can't hurt to just hide a bag, so it looks like a good deal. Your options are to tell him 1) Hide Bag 2) Go Away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">hide bag</command>
+    <result xml:space="preserve">Thank you! Here's your cash, I'm out of here!&#x000A;&#x000A;levelSixOne&#x000A;Moments later, the police barge into your store. &#x000A;  We're looking for a criminal who's been on the run. We saw him come in this area. Do you know of his whereabouts? Just saying, if you're caught lying, you'll be in trouble too.&#x000A;&#x000A;Cash: 3400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you.&#x000A;&#x000A;That was a rhetorical question.&#x000A;&#x000A;Cash: 3600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">give drugs</command>
+    <result xml:space="preserve">Smart choice, we'll handle it for you, come with us!&#x000A;&#x000A;levelSeven&#x000A;WELCOME TO AL CAPONE'S DEN! Al Capone is always here to help. But more than helping, he loves gambling. He'll only help if you're willing to play a game with him. The game of 21. The game is played with a deck of cards. The aim of the game is to get as close to 21 as possible without going over and to do so you can pick up however many cards from the deck as you seem fit. Once you and Al Capone stop drawing cards from the deck, you'll compare each other's cards and whoever is closest to 21 wins the game. Before the games begin, you'll need to wager in an amount and whoever wins 2 out of the 3 total games walks home with that amount of money. You can choose to bet all of your money or half of it. Type play to play the game or leave to get caught by the police and be jailed.&#x000A;&#x000A;Cash: 3800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">play</command>
+    <result xml:space="preserve">Enter the amount you want to put on the table: &#x000A;&#x000A;Wager: 0, Capone's Wins: 0, Your Wins: 0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">half</command>
+    <result xml:space="preserve">You Got: 7, Your Sum: 7&#x000A;&#x000A;Capone Got: 6, Capone's Sum: 6&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 4, Your Sum: 11&#x000A;&#x000A;Capone Got: 3, Capone's Sum: 9&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-99"/>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">all</command>
+    <result xml:space="preserve">You Got: 8, Your Sum: 15&#x000A;&#x000A;Capone Got: 0, Capone's Sum: 9&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 6, Your Sum: 21&#x000A;&#x000A;Capone Got: 3, Capone's Sum: 12&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;&#x000A;You Got: 10, Your Sum: 31&#x000A;&#x000A;Capone Got: 6, Capone's Sum: 18&#x000A;Someone went over 21, type next game to view results and move on to the next game.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">I'm sorry, go back and either say half or all to confirm your bet.&#x000A;Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 18, Your Sum: 31&#x000A;&#x000A;You Got: 10, Your Sum: 41&#x000A;&#x000A;Capone Got: 0, Capone's Sum: 18&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;&#x000A;&#x000A;Wager: 3615700, Capone's Wins: 1, Your Wins: 0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 9, Your Sum: 20&#x000A;&#x000A;Capone Got: 6, Capone's Sum: 15&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">stop</command>
+    <result xml:space="preserve">Capone Got: 2, Capone's Sum: 17&#x000A;Are you sure? Type next game to view results and move on to the next gameThat's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 17, Your Sum: 20&#x000A;&#x000A;You Got: 2, Your Sum: 2&#x000A;&#x000A;Capone Got: 6, Capone's Sum: 6&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;&#x000A;&#x000A;Wager: 3611900, Capone's Wins: 0, Your Wins: 1&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 5, Your Sum: 7&#x000A;&#x000A;Capone Got: 7, Capone's Sum: 13&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 4, Your Sum: 11&#x000A;&#x000A;Capone Got: 3, Capone's Sum: 16&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 9, Your Sum: 20&#x000A;&#x000A;Capone Got: 10, Capone's Sum: 26&#x000A;Someone went over 21, type next game to view results and move on to the next game.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 26, Your Sum: 20&#x000A;&#x000A;You Got: 4, Your Sum: 4&#x000A;&#x000A;Capone Got: 7, Capone's Sum: 7&#x000A;You have won majority of the games! Congratulations!&#x000A;&#x000A;&#x000A;&#x000A;    *** Game Over ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">IGNORE</command>
+    <result xml:space="preserve">levelFour&#x000A;After that long and tough decision, you plan to clear your mind by taking a walk around the block. As you walk around you come across a tall man in a big suit. He approaches you and attempts to create conversation: &#x000A; Good Morning Sir, how are you? As you know many businesses in the area are dipping and hitting low points. I suggest you buy our Businses Insaurance and we'll always keep you covered. We're one of the finest insaurance companies in the nation.  &#x000A; Your options are to 1) Keep listening 2) Keep walking and don't care.&#x000A;&#x000A;Cash: 1800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">keep walking and don't care</command>
+    <result xml:space="preserve">Wise choice, who knows if it was even a legit company.&#x000A;&#x000A;levelFive&#x000A;You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. &#x000A; Hey Daddy!! Can I ask you a question?&#x000A;&#x000A;Cash: 2000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Well, too bad daddy, I'll ask you anyway. My school today told me that I can't go back unless I pay the school fees. I don't know what that is, but I think they were asking for $3000 or something. Can you pay them that amount, I want to go back to school and have fun with my friends!!&#x000A; * YOU HAVE LESS THAN $3000, SO SAYING YES WILL MAKE YOU HAVE LESS THAN 0 CASH AND YOU'LL LOSE THE GAME * &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">But like everyone is going! Ugh fine, I was just trying to have some fun and be normal but whatever.&#x000A;&#x000A;levelSix&#x000A;Feeling bad about rejecting your daughter's request, you decide to head back to your store. Maybe you could earn more money and grant her wishes....&#x000A; So now you're back at the store trying to earn as much as possible. When suddenly a man with a large black bag comes into your shop. &#x000A;A few people are looking for me and chasing me and I've been cornered. They're trying to steal my money and stuff in this bag. I will pay you $800 to let me hide this bag here and let me go out through your back storage door. Please I beg you! &#x000A; Although this sounds pretty shady, he is about to pay the amount needed for your daughter's education and it can't hurt to just hide a bag, so it looks like a good deal. Your options are to tell him 1) Hide Bag 2) Go Away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">hide bag</command>
+    <result xml:space="preserve">Thank you! Here's your cash, I'm out of here!&#x000A;&#x000A;levelSixOne&#x000A;Moments later, the police barge into your store. &#x000A;  We're looking for a criminal who's been on the run. We saw him come in this area. Do you know of his whereabouts? Just saying, if you're caught lying, you'll be in trouble too.&#x000A;&#x000A;Cash: 3400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you.&#x000A;&#x000A;That was a rhetorical question.&#x000A;&#x000A;Cash: 3600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">give drugs</command>
+    <result xml:space="preserve">Smart choice, we'll handle it for you, come with us!&#x000A;&#x000A;levelSeven&#x000A;WELCOME TO AL CAPONE'S DEN! Al Capone is always here to help. But more than helping, he loves gambling. He'll only help if you're willing to play a game with him. The game of 21. The game is played with a deck of cards. The aim of the game is to get as close to 21 as possible without going over and to do so you can pick up however many cards from the deck as you seem fit. Once you and Al Capone stop drawing cards from the deck, you'll compare each other's cards and whoever is closest to 21 wins the game. Before the games begin, you'll need to wager in an amount and whoever wins 2 out of the 3 total games walks home with that amount of money. You can choose to bet all of your money or half of it. Type play to play the game or leave to get caught by the police and be jailed.&#x000A;&#x000A;Cash: 3800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">play</command>
+    <result xml:space="preserve">Enter the amount you want to put on the table: &#x000A;&#x000A;Wager: 0, Capone's Wins: 0, Your Wins: 0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">all</command>
+    <result xml:space="preserve">You Got: 5, Your Sum: 5&#x000A;&#x000A;Capone Got: 9, Capone's Sum: 9&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 4, Your Sum: 9&#x000A;&#x000A;Capone Got: 2, Capone's Sum: 11&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 3, Your Sum: 12&#x000A;&#x000A;Capone Got: 1, Capone's Sum: 12&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 5, Your Sum: 17&#x000A;&#x000A;Capone Got: 6, Capone's Sum: 18&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">You Got: 9, Your Sum: 26&#x000A;&#x000A;Capone's Sum: 18&#x000A;Someone went over 21, type next game to view results and move on to the next game.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 18, Your Sum: 26&#x000A;&#x000A;You Got: 4, Your Sum: 4&#x000A;&#x000A;Capone Got: 2, Capone's Sum: 2&#x000A;Type draw to draw a new card or stop to not draw another card.&#x000A;&#x000A;&#x000A;Wager: 3800, Capone's Wins: 1, Your Wins: 0&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">read letter</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">read firstLetter</command>
+    <result xml:space="preserve">Greetings,&#x000A; Hope you are having a gracious day. I am writing this letter to you to propose a business deal. You must know me for my numerous speakeasies - No, sorry, excuse me. I mean my businesses around Illinois. Your store seems to be in the optimal position where you get customers from all over the city. However, I see your business seems to be taking a dip recently and I am willing to help you out. Afterall, it would be a shame  if  something were to happen to it. In fact, I'll give you a very good deal. I'll buy your business from you for $1000. SELL your store or IGNORE this letter. But whatever you decide, it's on you!&#x000A; Yours Truly, &#x000A; Mr. Cal Apone&#x000A; (PS. You will NOT be allowed to change your answer later.&#x000A;&#x000A;&#x000A;Cash: 1600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">ignore</command>
+    <result xml:space="preserve">levelFour&#x000A;After that long and tough decision, you plan to clear your mind by taking a walk around the block. As you walk around you come across a tall man in a big suit. He approaches you and attempts to create conversation: &#x000A; Good Morning Sir, how are you? As you know many businesses in the area are dipping and hitting low points. I suggest you buy our Businses Insaurance and we'll always keep you covered. We're one of the finest insaurance companies in the nation.  &#x000A; Your options are to 1) Keep listening 2) Keep walking and don't care.&#x000A;&#x000A;Cash: 1800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">keep walking and don't care</command>
+    <result xml:space="preserve">Wise choice, who knows if it was even a legit company.&#x000A;&#x000A;levelFive&#x000A;You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. &#x000A; Hey Daddy!! Can I ask you a question?&#x000A;&#x000A;Cash: 2000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Well, too bad daddy, I'll ask you anyway. My school today told me that I can't go back unless I pay the school fees. I don't know what that is, but I think they were asking for $3000 or something. Can you pay them that amount, I want to go back to school and have fun with my friends!!&#x000A; * YOU HAVE LESS THAN $3000, SO SAYING YES WILL MAKE YOU HAVE LESS THAN 0 CASH AND YOU'LL LOSE THE GAME * &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">But like everyone is going! Ugh fine, I was just trying to have some fun and be normal but whatever.&#x000A;&#x000A;levelSix&#x000A;Feeling bad about rejecting your daughter's request, you decide to head back to your store. Maybe you could earn more money and grant her wishes....&#x000A; So now you're back at the store trying to earn as much as possible. When suddenly a man with a large black bag comes into your shop. &#x000A;A few people are looking for me and chasing me and I've been cornered. They're trying to steal my money and stuff in this bag. I will pay you $800 to let me hide this bag here and let me go out through your back storage door. Please I beg you! &#x000A; Although this sounds pretty shady, he is about to pay the amount needed for your daughter's education and it can't hurt to just hide a bag, so it looks like a good deal. Your options are to tell him 1) Hide Bag 2) Go Away.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">hide</command>
+    <result xml:space="preserve">Thank you! Here's your cash, I'm out of here!&#x000A;&#x000A;levelSixOne&#x000A;Moments later, the police barge into your store. &#x000A;  We're looking for a criminal who's been on the run. We saw him come in this area. Do you know of his whereabouts? Just saying, if you're caught lying, you'll be in trouble too.&#x000A;&#x000A;Cash: 3400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">no</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;&#x000A;That was a rhetorical question.&#x000A;&#x000A;Cash: 3600&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">give</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;(yourself yourself)&#x000A;(first taking yourself)&#x000A;You are always self-possessed.&#x000A;&#x000A;Cash: 3800&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">give drugs</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;&#x000A;Smart choice, we'll handle it for you, come with us!&#x000A;&#x000A;levelSeven&#x000A;WELCOME TO AL CAPONE'S DEN! Al Capone is always here to help. But more than helping, he loves gambling. He'll only help if you're willing to play a game with him. The game of 21. The game is played with a deck of cards. The aim of the game is to get as close to 21 as possible without going over and to do so you can pick up however many cards from the deck as you seem fit. Once you and Al Capone stop drawing cards from the deck, you'll compare each other's cards and whoever is closest to 21 wins the game. Before the games begin, you'll need to wager in an amount and whoever wins 2 out of the 3 total games walks home with that amount of money. You can choose to bet all of your money or half of it. Type play to play the game or leave to get caught by the police and be jailed.&#x000A;&#x000A;Cash: 4000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">play</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;&#x000A;Enter the amount you want to put on the table: &#x000A;Cash: 4200&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">half</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;You Got: 2, Your Sum: 2Capone Got: 10, Capone's Sum: 10Type draw to draw a new card or stop to not draw another card.&#x000A;That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;You Got: 5, Your Sum: 7Capone Got: 7, Capone's Sum: 17That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;You Got: 6, Your Sum: 13That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">draw</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;You Got: 8, Your Sum: 21That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">stop</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;Are you sure? Type next game to view results and move on to the next gameThat's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 17, Your Sum: 21&#x000A;You Got: 5, Your Sum: 26Capone Got: 5, Capone's Sum: 22Type draw to draw a new card or stop to not draw another card.&#x000A;&#x000A;Cash: 4400&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">stop</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;Are you sure? Type next game to view results and move on to the next gameThat's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">next game</command>
+    <result xml:space="preserve">Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......&#x000A;WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you  .&#x000A;Type Draw or Stop&#x000A;&#x000A;Capone's Sum: 22, Your Sum: 26&#x000A;You Got: 3, Your Sum: 29Capone Got: 10, Capone's Sum: 32You have won majority of the games! Congratulations!&#x000A;&#x000A;&#x000A;&#x000A;    *** Game Over ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-36">
-    <command xml:space="preserve">fight the mugger</command>
-    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">store owner </command>
+    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of {PLZ FINISH THIS}. &#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -325,17 +890,17 @@
     </children>
   </item>
   <item nodeId="node-37">
-    <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Your Health: 15   Mugger's Health: 12&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">fight the mugger</command>
+    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-38"/>
     </children>
   </item>
   <item nodeId="node-38">
     <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!&#x000A;Your Health: 12   Mugger's Health: 9&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You're on firee! Keep going like this and he'll never get you!&#x000A;Your Health: 15   Mugger's Health: 12&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -344,7 +909,7 @@
   </item>
   <item nodeId="node-39">
     <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!&#x000A;Your Health: 11   Mugger's Health: 5&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!&#x000A;Your Health: 12   Mugger's Health: 9&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -353,7 +918,7 @@
   </item>
   <item nodeId="node-40">
     <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A;Your Health: 6   Mugger's Health: 1&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Good one! Throw another one at him so he doesn't get you!&#x000A;Your Health: 11   Mugger's Health: 5&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -362,18 +927,18 @@
   </item>
   <item nodeId="node-41">
     <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">Nice move!! Oh no, he's about to come back with a strong kick! Quick, choose another move.&#x000A;Your Health: 6   Mugger's Health: 1&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">duck</command>
     <result xml:space="preserve">AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.&#x000A;&#x000A;Your Health: 6   Mugger's Health: -4&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
-  </item>
-  <item nodeId="node-42">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-43"/>
-    </children>
   </item>
   <item nodeId="node-43">
     <command xml:space="preserve"></command>
@@ -385,8 +950,8 @@
     </children>
   </item>
   <item nodeId="node-44">
-    <command xml:space="preserve">nothing</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -394,8 +959,8 @@
     </children>
   </item>
   <item nodeId="node-45">
-    <command xml:space="preserve">store owner</command>
-    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of {PLZ FINISH THIS}. &#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">nothing</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -403,8 +968,8 @@
     </children>
   </item>
   <item nodeId="node-46">
-    <command xml:space="preserve">fight the mugger</command>
-    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">store owner</command>
+    <result xml:space="preserve">You chose to be a Store Owner. Great Choice. Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of {PLZ FINISH THIS}. &#x000A;levelTwo&#x000A;It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a 50% chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -412,8 +977,8 @@
     </children>
   </item>
   <item nodeId="node-47">
-    <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 13   Mugger's Health: 13&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">fight the mugger</command>
+    <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to punch, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -422,7 +987,7 @@
   </item>
   <item nodeId="node-48">
     <command xml:space="preserve">duck</command>
-    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 11   Mugger's Health: 10&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 13   Mugger's Health: 13&#x000A;&#x000A;exampleRoom&#x000A;you're still stuck here&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -430,6 +995,15 @@
     </children>
   </item>
   <item nodeId="node-49">
+    <command xml:space="preserve">duck</command>
+    <result xml:space="preserve">He's got you! He's put you in a headlock, try to get out of it. Throw another move!&#x000A;Your Health: 11   Mugger's Health: 10&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
     <command xml:space="preserve">duck</command>
     <result xml:space="preserve">BAM! He hits you square in the face and you end up with a black eye. But you can't give up! KEEP FIGHTING!&#x000A;Your Health: 6   Mugger's Health: 10&#x000A;&#x000A;Cash: 1000&#x000A;Trust: 100&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
@@ -471,6 +1045,21 @@
   <item nodeId="node-55">
     <command xml:space="preserve">punch</command>
     <result xml:space="preserve">Ooh! Very brave, but not so smart. Get ready to fight. Your options are to pound, duck, kick, and run. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!&#x000A;&#x000A;Your Health: 15   Mugger's Health: 15&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">quit</command>
+    <result xml:space="preserve">Are you sure you want to quit?</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">yes</command>
+    <result xml:space="preserve"></result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
