@@ -1,0 +1,17 @@
+Scandal
+An Interactive Fiction by Sumuk Rao
+Release 1 / Serial number 181216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+levelOne
+Salutations! Welcome to the game of deceit. You are in Chicago and the date is March 2, 1922. This game focuses on showing the influence corruption on regular people's lives. You'll play the game as a regular store owner who's just trying to survive and keep his family alive. Throughout the game, you'll be asked to make different decisions. There will always be an option between a corrupt option and a less corrupt option, be sure to choose wisely! You'll have one main monitor: cash. Cash counts how much money you have (if you reach 0 you automatically lose). Type start to start the game.
+
+>cop
+You chose to be a Cop. Greate Choice. Let's continue.
+
+Cash: 1000
+Trust: 100
+>store owner
+>back
+That's not a verb I recognise.
+
+>
