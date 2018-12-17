@@ -5,13 +5,290 @@ Release 1 / Serial number 181216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 levelOne
 Salutations! Welcome to the game of deceit. You are in Chicago and the date is March 2, 1922. This game focuses on showing the influence corruption on regular people's lives. You'll play the game as a regular store owner who's just trying to survive and keep his family alive. Throughout the game, you'll be asked to make different decisions. There will always be an option between a corrupt option and a less corrupt option, be sure to choose wisely! You'll have one main monitor: cash. Cash counts how much money you have (if you reach 0 you automatically lose). Type start to start the game.
 
->cop
-You chose to be a Cop. Greate Choice. Let's continue.
+>start
+Here is the basic overview of the roles of Store Owner. You start off with $1000 and every turn you'll earn a salary of $200. Also note, you currently own two shops.
 
-Cash: 1000
-Trust: 100
->store owner
->back
+levelTwo
+It's 5 PM and you just finish a day of hard work. As you leave your warm shop, the fresh bakery smell morphs into the dust and smoke in the dark evening. As you walk home, you sense a strange man at a distance. His tall, shady figure portrays no good news, so you tug your head and keep walking. Moments later, you hear a shriek. You immediately lift your head, only to see the shadow of the strange man pointing a gun at an innocent woman. You can hear his deep voice demanding money and jewelery. As a citizen, you initially feel as if it is your duty to help this woman but then you weigh your options 1) fight the mugger 2) continue walking. If you choose the former, you have a chance of getting mugged and hurt but with the latter you walk home safe and no one gets hurt. What do you chose to do?
+
+Cash: 1200
+
+>fight the mugger
+Ooh! Very brave, but not so smart. Get ready to fight. Your options are to pound, duck, kick, and run away. Each of you start off with a health of 15 and will decrease with each move. Make sure to get him to 0 before you do or else you'll be in trouble!! Good Luck...Oh great, he's already about to hit you, choose one of the fight options above (unless you're a coward, choose run to run away and be safe)!!!
+
+>kick
+He ducked, so good choice kicking him, type the next command..
+Your Health: 15   Mugger's Health: 12
+
+>duck
+He kicked you, so ducking didn't help, type the next command..
+Your Health: 12   Mugger's Health: 12
+
+>pound
+He kicked you, so good choice pounding him, type the next command..
+Your Health: 12   Mugger's Health: 9
+
+>kick
+He ducked, so good choice kicking him, type the next command..
+Your Health: 12   Mugger's Health: 6
+
+>kick
+He ducked, so good choice kicking him, type the next command..
+Your Health: 12   Mugger's Health: 3
+
+>kick
+He ducked, so good choice kicking him, type the next command..
+Your Health: 12   Mugger's Health: 0
+Your Health: 12   Mugger's Health: 0
+
+AYYY! You have successfully blacked out the mugger. The woman is saved and you are a good citizen. You can continue walking home.
+
+levelThree
+It's a fresh new day and you're ready to head back to the workplace. Except you now see a letter taped onto the door. You weren't expecting anything so what could it be?
+
+You can see First Letter here.
+
+>pound
 That's not a verb I recognise.
 
+>run away
+That was a close call. You barely made it out alive! Poor woman though, she'll still be mugged but atleast you tried. You continue to walk home and are able to sleep. Rest up for a big day tomorrow. Good Night!
+
+levelThree
+It's a fresh new day and you're ready to head back to the workplace. Except you now see a letter taped onto the door. You weren't expecting anything so what could it be?
+
+You can see First Letter here.
+
+Cash: 1400
+
+>read First Letter
+Greetings,
+ Hope you are having a gracious day. I am writing this letter to you to propose a business deal. You must know me for my numerous speakeasies - No, sorry, excuse me. I mean my businesses around Illinois. Your store seems to be in the optimal position where you get customers from all over the city. However, I see your business seems to be taking a dip recently and I am willing to help you out. Afterall, it would be a shame  if  something were to happen to it. In fact, I'll give you a very good deal. I'll buy your business from you for $1000. SELL your store or IGNORE this letter. But whatever you decide, it's on you!
+ Yours Truly, 
+ Mr. Cal Apone
+ (PS. You will NOT be allowed to change your answer later.
+
+
+Cash: 1600
+
+>ignore
+levelFour
+After that long and tough decision, you plan to clear your mind by taking a walk around the block. As you walk around you come across a tall man in a big suit. He approaches you and attempts to create conversation: 
+ Good Morning Sir, how are you? As you know many businesses in the area are dipping and hitting low points. I suggest you buy our Businses Insaurance and we'll always keep you covered. We're one of the finest insaurance companies in the nation.  
+ Your options are to 1) Keep listening 2) Keep walking and don't care.
+
+Cash: 1800
+
+>keep listening 
+The man continues and says:  
+ We can make this very simple. Just give me $1000 and I'll give you this receipt. I'll make sure to add you into our system. It's a quick process for a lifetime of safetyness, I suggest you go for it.  
+ Your options are 1) buy the insaurance 2) keep walking and don't care.
+
+Cash: 2000
+
+>buy insaurance 
+Nice, it's always good to have an insaurance under the belt.
+
+levelFive
+You continue on home and finally decide to rest on your couch. Your young 10 year old daughter comes up excited to see you back home. 
+ Hey Daddy!! Can I ask you a question?
+
+Cash: 1200
+
+>no
+Well, too bad daddy, I'll ask you anyway. My school today told me that I can't go back unless I pay the school fees. I don't know what that is, but I think they were asking for $3000 or something. Can you pay them that amount, I want to go back to school and have fun with my friends!!
+ * YOU HAVE LESS THAN $3000, SO SAYING YES WILL MAKE YOU HAVE LESS THAN 0 CASH AND YOU'LL LOSE THE GAME * 
+>no
+But like everyone is going! Ugh fine, I was just trying to have some fun and be normal but whatever.
+
+levelFiveOne
+You suddenly hear a random letter crash against your front door. You can a) read the second letter b) ignore
+
+You can see Second Letter here.
+
+>read Second Letter
+Greetings,
+ Hope you are having a gracious day. I am writing this letter to you  again to propose a business deal. I see your business seems to be taking a dip as expected and I am offering help a  second and final  time. Afterall, it would be a shame  if  something were to happen to it. In fact, I'll give you a very good deal, but not as good as last time: $500. SELL your store or IGNORE this letter. But whatever you decide, it's on you!
+ Yours Truly, 
+ Mr. Cal Apone
+ (PS. You will NOT be allowed to change your answer later.
+
+
+Cash: 1400
+
+>ignore
+levelSix
+Feeling bad about rejecting your daughter's request, you decide to head back to your store. Maybe you could earn more money and grant her wishes....
+ So now you're back at the store trying to earn as much as possible. When suddenly a man with a large black bag comes into your shop. 
+A few people are looking for me and chasing me and I've been cornered. They're trying to steal my money and stuff in this bag. I will pay you $1400 to let me hide this bag here and let me go out through your back storage door. Please I beg you! 
+ Although this sounds pretty shady, he is about to pay the amount needed for your daughter's education and it can't hurt to just hide a bag, so it looks like a good deal. Your options are to tell him 1) Hide Bag 2) Go Away.
+
+Cash: 1600
+
+>hide bag
+Thank you! Here's your cash, I'm out of here!
+
+levelSixOne
+Moments later, the police barge into your store saying: 
+ We're looking for a criminal who's been on the run. We saw him come in this area. Do you know of his whereabouts? Just saying, if you're caught lying, you'll be in trouble too.
+
+Cash: 3400
+
+>no
+Alright, thanks for letting us know. We're going to look around your store for any suspicious activity......
+WOAH! HOLD UP! We didn't find the guy hiding here, but you're in trouble. We found this large black bag filled with drugs in your storage. You'll get into huge trouble for this, jail time for sure. Unless, of course, we work it out. You can a) accept this and go to jail and lose the game b) give us the drugs for free and we can ask our boss to cut out a deal for you c) call up your insaurance company to sort it out.
+
+That was a rhetorical question.
+
+Cash: 3600
+
+>call up insaurance company
+After calling them up multiple times, you're forced to give up. It seems like they've provided a fake number. You've been a victim of insaurance fraud, you're on your own now. I guess you're stuck with option a or b.
+
+Cash: 3800
+
+>give drugs
+Smart choice, we'll handle it for you, come with us!
+
+levelSeven
+WELCOME TO AL CAPONE'S DEN! Al Capone is always here to help. But more than helping, he loves gambling. He'll only help if you're willing to play a game with him. The game of 21. The game is played with a deck of cards. The aim of the game is to get as close to 21 as possible without going over and to do so you can pick up however many cards from the deck as you seem fit. Once you and Al Capone stop drawing cards from the deck, you'll compare each other's cards and whoever is closest to 21 wins the game. Before the games begin, you'll need to wager in an amount and whoever wins 2 out of the 3 total games walks home with that amount of money. You can choose to bet all of your money or half of it. Type play to play the game or leave to get caught by the police and be jailed.
+
+Cash: 4000
+
+>play
+Enter the amount you want to put on the table: 
+Your Options: 100, 500, 1000
+
+Cash: 4200
+
+>500
+Round One:
+You Got: 7, Your Sum: 7
+Capone Got: 7, Capone's Sum: 7
+
+Type draw to draw a new card or stop to not draw another card.
+
+>draw
+Next Draw:
+You Got: 6, Your Sum: 13
+Capone Got: 7, Capone's Sum: 14
+Type draw to draw a new card or stop to not draw another card.
+That's not a verb I recognise.
+
+>draw
+Next Draw:
+You Got: 0, Your Sum: 13
+Capone Got: 5, Capone's Sum: 19
+Type draw to draw a new card or stop to not draw another card.
+That's not a verb I recognise.
+
+>next game
+Next Draw:
+You Got: 2, Your Sum: 15
+Capone's Sum: 19
+Type draw to draw a new card or stop to not draw another card.
+
+
+Capone's Sum: 19, Your Sum: 15
+Capone wins the round!
+
+Round One:
+You Got: 2, Your Sum: 2
+Capone Got: 0, Capone's Sum: 0
+
+Type draw to draw a new card or stop to not draw another card.
+
+
+Wager: 500, Capone's Wins: 1, Your Wins: 0
+
+>draw
+Next Draw:
+You Got: 4, Your Sum: 6
+Capone Got: 0, Capone's Sum: 0
+Type draw to draw a new card or stop to not draw another card.
+That's not a verb I recognise.
+
+>draw
+Next Draw:
+You Got: 10, Your Sum: 16
+Capone Got: 1, Capone's Sum: 1
+Type draw to draw a new card or stop to not draw another card.
+That's not a verb I recognise.
+
+>draw
+Next Draw:
+You Got: 1, Your Sum: 17
+Capone Got: 7, Capone's Sum: 8
+Type draw to draw a new card or stop to not draw another card.
+That's not a verb I recognise.
+
+>draw
+Next Draw:
+You Got: 7, Your Sum: 24
+Capone Got: 3, Capone's Sum: 11
+Someone went over 21, type next game to view results and move on to the next game.
+That's not a verb I recognise.
+
+>draw
+Next Draw:
+You Got: 3, Your Sum: 27
+Capone Got: 5, Capone's Sum: 16
+Someone went over 21, type next game to view results and move on to the next game.
+That's not a verb I recognise.
+
+>next game
+Next Draw:
+You Got: 3, Your Sum: 30
+Capone Got: 4, Capone's Sum: 20
+Someone went over 21, type next game to view results and move on to the next game.
+
+
+Capone's Sum: 20, Your Sum: 30
+Capone wins the round!
+
+Round One:
+You Got: 4, Your Sum: 4
+Capone Got: 2, Capone's Sum: 2
+Al Capone has won majority of the games! You lose!That was a fun game with Al Capone and you're finally ready to go home.
+You get a quick call and it doesn't sound good. It was a bad choice ignoring that letter earlier, They got to you. Since you didn't give them your store they burned it down and now they'll make it theirs. It's a pity how people think and how easily they can steal. The repaire chargers will cost you about $500.
+
+
+
+    *** Congratulations, you've reached the end of the game without getting bankrupt. As some of the levels may seem confusing, let me try to explain the main purprose of this game. This was created so you could live the life of an average store owner in the 1920"s USA. With the first case, I wanted to see if you, as the player, would risk your life and money to go help another person who was getting mugged. Usually in the 1920"s since crime was so common, many just ignored it. So if you fought the mugger, good job to you, but just know it was not the norm. Next, you were approached with a series of letters to see if you would give up your shop. If you ignored the letters, depending on your luck, your store had a chance of being burned down and stolen away. This was a common situation during the aforementioned era. Many people faced threats or blackmails by mobs and were sometimes forced to give things away. Then, you were approched by a man who claimed to sell insaurance but this was clearly a case of insaurance fraud. Insaurance and bank frauds were a common issue during the era where many people lost a bunch of money, so I wanted to make sure you're aware of this topic and how it directly affected you as a store owner. Towards the end of the game, you were framed for posessing drugs. A man said he'd pay you to hide a mysterious bag there, but then you were caught for having drugs. On top of that, the police who took you managed to let you free with a deal. This kind of inside crime was a big deal, where police let criminals go due to a bribe or a deal. Finally, you were able to play a fun game with Al Capone and be introduced to his gambling addictions. Although the game is not complete, I hope you were able to get a basic view on how store owners struggled during this era. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>draw
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>next game
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+>TRANSCRIPT
+Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 >
