@@ -257,38 +257,3 @@ You get a quick call and it doesn't sound good. It was a bad choice ignoring tha
     *** Congratulations, you've reached the end of the game without getting bankrupt. As some of the levels may seem confusing, let me try to explain the main purprose of this game. This was created so you could live the life of an average store owner in the 1920"s USA. With the first case, I wanted to see if you, as the player, would risk your life and money to go help another person who was getting mugged. Usually in the 1920"s since crime was so common, many just ignored it. So if you fought the mugger, good job to you, but just know it was not the norm. Next, you were approached with a series of letters to see if you would give up your shop. If you ignored the letters, depending on your luck, your store had a chance of being burned down and stolen away. This was a common situation during the aforementioned era. Many people faced threats or blackmails by mobs and were sometimes forced to give things away. Then, you were approched by a man who claimed to sell insaurance but this was clearly a case of insaurance fraud. Insaurance and bank frauds were a common issue during the era where many people lost a bunch of money, so I wanted to make sure you're aware of this topic and how it directly affected you as a store owner. Towards the end of the game, you were framed for posessing drugs. A man said he'd pay you to hide a mysterious bag there, but then you were caught for having drugs. On top of that, the police who took you managed to let you free with a deal. This kind of inside crime was a big deal, where police let criminals go due to a bribe or a deal. Finally, you were able to play a fun game with Al Capone and be introduced to his gambling addictions. Although the game is not complete, I hope you were able to get a basic view on how store owners struggled during this era. ***
 
 
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->draw
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->next game
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->TRANSCRIPT
-Please give one of the answers above.
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
->
